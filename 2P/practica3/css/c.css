@@ -1,0 +1,68 @@
+.pagina {
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+    width: calc(100% - 50px);
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    z-index: -1;
+}
+
+.izquierda {
+    background-color: rgb(25, 35, 37);
+    height: 100vh;
+    width: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.izquierda .buttons {
+    background-color: rgb(43, 37, 73);
+    height: 250px;
+    width: 50px;
+    position: absolute;
+    top: 414px;
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.lado1{
+    background-color: rgb(136, 136, 136);
+    height: 100vh;
+    width: 500px;
+    margin-left: 0;
+}
+
+.contenedor{
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 500px;
+    margin-left: auto;
+    margin-top: 0px;
+    float: right;
+}
+
+.contenedor input{
+    border-color: rgb(199, 199, 199);
+    animation: none;
+}
+
+.eso{
+    width: 350px;
+    margin-left: 20px;
+    float: none;
+}
+
+input[type="date"]{
+    border-color: transparent;
+    border-radius: 5px;
+}
