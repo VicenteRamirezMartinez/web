@@ -1,0 +1,79 @@
+.pagina{
+    background-color: rgb(179, 216, 219);
+    height: 100vh;
+    width: calc(100%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.recibo{
+    margin: auto;
+    background-color: rgb(121, 194, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 970px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.recibo .cabecera{
+    margin-top: 10px;
+    background-color: rgb(20, 26, 85);
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    max-width: 950px;
+    align-self: center;
+    text-align: center;
+}
+
+.recibo .contenido{
+    margin-top: 60px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 45px;
+}
+
+.contenido input{
+    width: 140px;
+}
+
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up2{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.center2{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.down{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
