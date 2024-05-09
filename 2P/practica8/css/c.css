@@ -1,0 +1,34 @@
+.paginaseishon{
+    background-color:rgb(11, 75, 87);
+    color: rgb(0, 50, 58);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.container-fluid{
+    background-color: rgb(0, 50, 58);
+}
+
+.container-fluid a{
+    color: white;
+}
+
+.d-flex button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+}
+
+.d-flex button:hover{
+    background-color: rgb(94, 131, 240);
+    color: white;
+    border: none;
+}
+
+img{
+    width: 50%;
+    height: 550px;
+    margin: 25px;
+    padding-right: 50px;
+}
