@@ -1,0 +1,86 @@
+.pagina {
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.barraizquierda {
+    background-color: rgb(25, 35, 37);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+.barraizquierda svg{
+    width: 30px;
+    height: 30px;
+    padding-left: 0px;
+    margin: auto;
+}
+
+.barraizquierda button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lodemas{
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    float: left;
+}
+
+.arriba2 button{
+    margin-left: 100%;
+    margin-top: 5px;
+}
+
+.lodemas .arriba{
+    background-color: rgb(43, 43, 43);
+    position: top;
+    display: flex;
+    height: 70px;
+    width: 500px;
+    margin: 10px;
+}
+
+.lodemas .abajo{
+    background-color: rgb(50, 56, 58);
+    color:rgb(209, 209, 209);
+    position: fixed;
+    display: flex;
+    height: 590px;
+    width: 500px;
+}
+
+.abajo2{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+
+.abajo select{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
